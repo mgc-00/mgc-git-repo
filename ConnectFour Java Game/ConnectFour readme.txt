@@ -1,6 +1,7 @@
 # Connect Four Game
 
 A simple Connect Four game implemented in Java with a graphical user interface (GUI) built using Swing.
+Also includes a text-based version of the game.
 
 ## Overview
 
