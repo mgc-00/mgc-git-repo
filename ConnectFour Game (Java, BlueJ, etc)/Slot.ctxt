@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\r\n\ Slot\r\n\ This\ class\ handles\ the\ state\ of\ each\ slot\ in\ the\ game.\ Extending\ observable\ in\ preparation\ for\ the\ addition\ of\ a\ GUI.\r\n\ @author\ M\ Currie\ w18029061\r\n\ @version\ Student\ Sample\ Code\r\n
+comment1.params=col\ row
+comment1.target=Slot(int,\ int)
+comment1.text=\r\n\ Constructor\ of\ the\ class\ Slot\r\n\ This\ creates\ the\ slot\ and\ denotes\ where\ it\ is\ placed\ in\ the\ game\ board.\r\n\ \r\n\ @param\ col\ -\ the\ slot's\ column\ number\r\n\ @param\ row\ -\ the\ slot's\ row\ number\r\n
+comment2.params=newState
+comment2.target=void\ setState(java.lang.String)
+comment2.text=\r\n\ setState\r\n\ This\ method\ sets\ the\ current\ state\ of\ the\ slot\r\n\ @param\ newState\ -\ the\ new\ state\ of\ the\ slot\r\n
+comment3.params=
+comment3.target=java.lang.String\ getState()
+comment3.text=\r\n\ getState\r\n\ This\ provides\ the\ current\ state\ of\ the\ slot\r\n\ @return\ the\ current\ state\ of\ the\ slot\r\n
+comment4.params=state
+comment4.target=boolean\ isValidState(java.lang.String)
+comment4.text=\r\n\ isValidState\ \r\n\ This\ method\ checks\ whether\ the\ selected\ state\ is\ valid\r\n\ @param\ state\ -\ the\ state\ that\ is\ being\ checked\r\n\ @return\ a\ Boolean\ value\ showing\ whether\ the\ state\ is\ valid\ or\ not\r\n
+numComments=5
