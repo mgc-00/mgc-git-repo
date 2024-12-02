@@ -26,13 +26,35 @@ Requirements
   
 	git clone https://github.com/yourusername/chatanooga.git cd 
 	
-2. Install Dependencies: Install the required Python packages:
+2. Install Dependencies: Install the required Python packages in CMD or Powershell:
 
 	pip install -r requirements.txt
+	
+	pip install SpeechRecognition
+
+	pip install pyttsx3
+
+	pip install transformers
+
+	pip install numpy
+
 
 3. Install PyAudio: Ensure PyAudio is installed using the provided .whl file in your Python 3.7.4 folder:
 
+	Windows:
+	
 	pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+	
+	Mac:
+	
+	brew install portaudio
+	pip install pyaudio
+	
+	Linux:
+	
+	sudo apt-get install portaudio19-dev python3-pyaudio
+
+
 
 
 Usage
@@ -46,7 +68,7 @@ Usage
     Chatanooga listens for your voice commands and responds with synthesized speech.
 
     Example interactions include asking about the weather, requesting a joke, or general knowledge questions.
-	 **** Bot does take a couple of minutes to load before each session****
+	 **** Bot takes over a couple of minutes to load before each session****
 	 
 Customization
 
@@ -57,5 +79,3 @@ Customization
 Contributing
 
 Feel free to submit issues, fork the repository, and make pull requests to improve the chatbot. All contributions are welcome!
-	
-	
