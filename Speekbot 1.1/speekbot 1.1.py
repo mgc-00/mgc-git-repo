@@ -1,3 +1,7 @@
+# Chatanooga Chatbot TTS/STT
+# @author M Currie 
+# @version 1.1
+
 # Import necessary libraries
 import speech_recognition as sr
 import pyttsx3
