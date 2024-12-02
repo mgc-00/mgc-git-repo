@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Assign
+comment0.text=\r\n\ Assign\r\n\ This\ class\ handles\ the\ creation\ of\ all\ moves\ in\ the\ game\r\n\ @author\ M\ Currie\ w18029061\r\n\ @version\ Student\ Sample\ Code\r\n
+comment1.params=game\ col\ player
+comment1.target=Assign(ConnectFour,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ Assign\ class.\r\n\ This\ gets\ the\ total\ number\ of\ moves\ and\ calls\ methods\ to\ determine\ the\ row\ that\ will\ be\ filled,\ and\ to\ set\ the\ state\ of\ the\ slot\ being\ assigned.\r\n\ @param\ game\ -\ the\ game\r\n\ @param\ col\ -\ the\ column\ the\ user\ has\ selected\r\n\ @param\ player\ -\ a\ Boolean\ value\ that\ determines\ whether\ it\ is\ a\ player/computer\ move\r\n
+comment2.params=
+comment2.target=void\ addToMoveHistory()
+comment2.text=\r\n\ addToMoveHistory\r\n\ This\ method\ records\ the\ history\ of\ moves\ in\ the\ stack,\ made\ by\ the\ player\ and\ computer\ \r\n
+comment3.params=col
+comment3.target=int\ calculateRow(int)
+comment3.text=\r\n\ calculateRow\r\n\ Finds\ the\ lowest\ empty\ slot\ of\ the\ selected\ column\r\n\ @param\ col\ -\ the\ selected\ column\r\n\ @return\ the\ row\ value\r\n
+comment4.params=player
+comment4.target=void\ assignMove(boolean)
+comment4.text=\r\n\ assignMove\r\n\ This\ method\ assigns\ the\ move\ to\ the\ game\r\n\ @param\ player\ a\ Boolean\ value\ to\ determine\ whether\ it\ is\ a\ computer/player\ move\r\n
+comment5.params=
+comment5.target=int\ getRow()
+comment5.text=\r\n\ getRow\r\n\ This\ method\ returns\ the\ current\ row\ value\ for\ this\ move.\ \r\n\ It\ allows\ another\ element\ of\ the\ program\ to\ access\ this\ move's\ current\ row.\r\n\ @return\ the\ row\ value\r\n
+numComments=6
