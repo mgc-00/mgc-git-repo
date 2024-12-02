@@ -1,6 +1,6 @@
 # Chatanooga Chatbot TTS/STT
 # @author M Currie 
-# @version 1.1
+# @version 1.1 Nov 2024
 
 # Import necessary libraries
 import speech_recognition as sr
